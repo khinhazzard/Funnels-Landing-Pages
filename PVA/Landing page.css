@@ -1,0 +1,448 @@
+:root {
+    --PrimaryNavy: #1E2D5A;
+    --AccentGreen: #78B41E;
+    --DarkerGreen: #00B890;
+    --LightGrayBG: #F9FAFB;
+    --BorderGray: #E5E7EB;
+    --TextDark: #1A1A1A;
+    --TextGray: #4B5563;
+    --White: #FFFFFF;
+}
+
+.btnQuote {
+    background-color: #FFFFFF !important;
+    color: #1E2D5A !important;
+    border-radius: 8px !important;
+    padding: 16px 32px !important;
+    font-weight: 600;
+    width: 100%;
+    text-align: center;
+    display: block;
+    transition: all 0.2s ease;
+}
+
+.btnQuote:hover {
+    background-color: #F3F4F6 !important;
+ /* light gray */
+    transform: translateY(-2px);
+}
+
+.btnLargeSched {
+    background-color: #78B41E !important;
+    color: #1E2D5A !important;
+    border-radius: 8px !important;
+    padding: 20px 48px !important;
+    font-size: 20px !important;
+    font-weight: 600;
+    transition: all 0.2s ease;
+}
+
+.btnLargeSched:hover {
+    background-color: #6AA017 !important;
+    transform: translateY(-2px);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[ S1: Navigation]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.navStickyHeader {
+    position: sticky !important;
+    top: 0;
+    z-index: 625 !important;
+  	 /* slight transparency */
+    background: rgba(255, 255, 255, 0.95) !important;
+    transition: transform 0.35s ease, opacity 0.35s ease;
+    will-change: transform;
+}
+
+.buttonSchedDemo {
+    background-color: #78B41E !important;
+    color: #1E2D5A !important;
+    border-radius: 8px !important;
+    font-weight: 600 !important;
+}
+
+.buttonSchedDemo:hover {
+   /* background-color: #00B890 !important;*/
+    background-color: #6AA017 !important;
+    transform: translateY(-2px);
+    transition: all 0.2s ease;
+}
+
+/*Mobile View */
+
+.navStickyHeaderMobile {
+    position: sticky !important;
+    top: 0;
+    z-index: 625 !important;
+    background: rgba(255, 255, 255, 0.95) !important;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    /* 🔥 smaller height */
+    padding: 2px 2px !important;
+}
+
+/* smaller button for mobile */
+.navStickyHeaderMobile .buttonSchedDemoM {
+    padding: 5px 5px !important;
+    font-size: 14px !important;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[ Hero Section]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/*Subheadline: Your Spending...*/
+#sub-heading-qxZ4rTGHdl * {
+    opacity: 1 !important;
+  /*90% Opacity*/
+    color: rgba(255, 255, 255, 0.90) !important;
+    width: fit-content !important;
+}
+
+/*Button: See How it Works*/
+.btnSeeHow {
+    background-color: #78B41E;
+    color: #1E2D5A;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: all 0.2s ease;
+}
+
+.btnSeeHow:hover {
+    background-color: #6AA017;
+    transform: translateY(-2px);
+}
+
+/*Button: View Pricing*/
+.btnViewPricing {
+    transition: all 0.2s ease;
+}
+
+.btnViewPricing:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+ /* subtle fill */
+    transform: translateY(-2px);
+}  
+  
+/*~~~ Mobile View ~~~*/
+.btnM {
+    width: 100% !important;
+    text-align: center !important;
+    padding: 10px 10px !important;
+    font-size: 14px !important;
+    font-weight: 600;
+}
+  
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[ Cards ]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.statBoxes {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 12px;
+    height: 100%;
+    min-height: 150px !important;
+}
+
+.problemCard {
+    background-color: var(--LightGrayBG) !important;
+   /*border: 2px solid var(--BorderGray) !important; <- doesn't work when published live */
+    outline: 2px solid var(--BorderGray) !important;
+    border-radius: 12px !important;
+    padding: 32px !important;
+    text-align: center;
+    transition: all 0.2s ease;
+    margin: 0 10px !important;
+}
+
+.problemCard:hover {
+    outline: 2px solid var(--AccentGreen) !important;
+    transform: translateY(-5px);
+}
+
+.problemCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+    min-height: 275px !important;
+    gap: 12px;
+}
+
+/*~~~Mobile View~~~*/
+.statBoxesM {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+    min-height: 50px !important;
+}
+
+.problemCardM {
+    background-color: var(--LightGrayBG) !important;
+    outline: 2px solid var(--BorderGray) !important;
+    border-radius: 12px !important;
+    padding: 12px !important;
+    text-align: center;
+    transition: all 0.2s ease;
+    margin: 0 10px !important;
+}
+
+.problemCardM {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+    min-height: 125px !important;
+}
+
+.problemCardM:hover {
+    outline: 2px solid var(--AccentGreen) !important;
+    transform: translateY(-5px);
+}
+
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[ S5: Meet Your New ]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/* LEFT COLUMN BACKGROUND */
+.phoneWrap {
+    background: linear-gradient(135deg, #1E2D5A, #0D3A5F) !important;
+    border-radius: 16px !important;
+    padding: 40px !important;
+}
+
+/* WHITE CARD (PHONE MOCKUP) */
+.phoneMock {
+    background: #FFFFFF !important;
+    padding: 30px !important;
+    border-radius: 16px !important;
+    text-align: center !important;
+    font-weight: 600 !important;
+    margin: 0 auto !important;
+  /* SHADOW + GREEN GLOW */
+    box-shadow: 0 20px 40px rgba(0,0,0,0.25),
+    0 0 60px rgba(120, 180, 30, 0.45) !important;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[ S6: INDUSTRIES ]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.industryTag {
+    display: inline-block !important;
+    min-width: 250px;
+    background: #F3F4F6 !important;
+    color: var(--PrimaryNavy) !important;
+    outline: 2px solid var(--BorderGray) !important;
+    padding: 10px 16px !important;
+    border-radius: 8px !important;
+    text-align: center !important;
+    margin-top: 15px !important;
+    margin-bottom: 15px !important;
+    transition: all 0.2s ease !important;
+}
+
+/* IMPORTANT: override full border, not just color */
+.industryTag:hover {
+    background: #FFFFFF !important;
+  	outline: none !important;
+    box-shadow: inset 0 0 0 2px var(--AccentGreen) !important;
+}
+
+.s6column {
+    text-align: center;
+}
+
+/*Mobile View*/
+
+.industryTagM {
+    display: inline-block !important;
+    min-width: 250px;
+    background: #F3F4F6 !important;
+    color: var(--PrimaryNavy) !important;
+    outline: 2px solid var(--BorderGray) !important;
+    padding: 10px 16px !important;
+    border-radius: 8px !important;
+    text-align: center !important;
+    margin-top: 0px !important;
+    margin-bottom: 10px !important;
+    transition: all 0.2s ease !important;
+}
+
+/* IMPORTANT: override full border, not just color */
+.industryTagM:hover {
+    background: #FFFFFF !important;
+  	outline: none !important;
+    box-shadow: inset 0 0 0 2px var(--AccentGreen) !important;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[ S7: PRICING COMPARISON ]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.pricingHeaderLeft {
+    background: #162447 !important;
+    padding: 10px 26px !important;
+    border-radius: 6px !important;
+    min-width: 150px;
+    text-align: right !important;
+    display: inline-block !important;
+    /*margin: 0 auto 5px auto !important;*/
+}
+
+.pricingHeaderRight {
+    background: var(--AccentGreen) !important;
+    color: #FFFFFF !important;
+    padding: 10px 26px !important;
+    border-radius: 6px !important;
+    min-width: 150px;
+    text-align: right !important;
+    display: inline-block !important;
+    /*margin: 0 auto 5px auto !important;*/
+}
+
+.badge {
+    background: #FFFFFF;
+    color: #78B41E;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.bulletListIndent {
+    text-align: left !important;
+     /* keeps bullets aligned properly */
+   /* padding-left: 160px !important;*/
+   /*  pushes list inward (indent) */
+}
+
+.priceCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+    min-height: 115px !important;
+}
+
+.s7column {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+    min-height: 325px !important;
+    gap: 12px;
+}
+
+/*~~~Mobile View~~~*/
+
+.pricingHeaderLeftM {
+    background: #162447 !important;
+    padding: 10px 26px !important;
+    border-radius: 6px !important;
+ 	width: 100%;
+	max-width: 295px;
+    text-align: center !important;
+    display: inline-block !important;
+}
+
+.pricingHeaderRightM {
+    background: var(--AccentGreen) !important;
+    color: #FFFFFF !important;
+    padding: 10px 26px !important;
+    border-radius: 6px !important;
+  	width: 100%;
+	max-width: 295px;
+    text-align: center !important;
+    display: inline-block !important;
+}
+
+.s7columnM {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+    min-height: 275px !important;
+    gap: 12px;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[ S8: HOW IT WORKS ]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.stepNumber {
+    width: 40px !important;
+    height: 40px !important;
+    background: #78B41E !important;
+   /* makes it a circle */
+    border-radius: 50% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  /* center + spacing below */
+    margin: 0 auto 10px auto !important;
+}
+
+.stepNumber H1 {
+    font-weight: 700 !important;
+    font-size: 24px;
+    color: var(--White) !important;
+}
+
+.stepTitle H1 {
+    font-weight: 600 !important;
+    font-size: 20px !important;
+    color: #1E2D5A !important;
+    margin-bottom: 6px !important;
+}
+
+.stepDesc H1 {
+    font-size: 16px !important;
+    color: #1A1A1A !important;
+    line-height: 1.5 !important;
+    max-width: 260px;
+    margin: 0 auto;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[ Footer]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.footerLink a {
+    color: #FFFFFF !important;
+    text-decoration: none !important;
+    transition: color 0.2s ease !important;
+}
+
+.footerLink a:hover {
+    color: #78B41E !important;
+ /* green */
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[ Global Effects ]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+.fadeUp {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.6s ease;
+}
+
+.fadeUp.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/*~~~~~~[uncomment this code to make cards viewable for editing]~~~~~~~~~*/
+
+
+body:not(.live) .fadeUp {
+    opacity: 1 !important;
+    transform: none !important;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
