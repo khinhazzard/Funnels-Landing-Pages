@@ -1,0 +1,66 @@
+:root {
+    --Navy: #1E2D5A;
+    --Green: #78B41E;
+    --GreenHover: #689f19;
+    --Charcoal: #111;
+    --DarkGray: #333;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.sectionSpacing {
+    padding-top: 50px !important;
+    padding-bottom: 60px !important;
+}
+
+.heroSectionSpacing {
+    padding-top: 50px !important;
+    padding-bottom: 60px !important;
+}
+
+.mobileSectionSpacing {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+
+.heroHeadline h1 {
+    max-width: 800px !important;
+    line-height: 1.1em !important;
+    margin: 0 auto !important;
+}
+
+.supportingTextWidth {
+    max-width: 1000px !important;
+    margin: 0 auto !important;
+}
+
+.leftParagraphWidth {
+    max-width: 800px !important;
+    margin: 0 auto !important;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[ CTAs ]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/* Buttons */
+.reserveButton {
+    background-color: var(--Green) !important;
+    color: #FFFFFF !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    line-height: 1.4 !important;
+    padding: 14px 28px !important;
+    border-radius: 6px !important;
+    border: none !important;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+}
+
+/* Hover */
+.reserveButton:hover {
+    background-color: var(--GreenHover) !important;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/

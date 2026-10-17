@@ -1,0 +1,93 @@
+:root {
+    --Navy: #1E2D5A;
+    --Green: #78B41E;
+    --GreenHover: #689f19;
+    --Charcoal: #111;
+    --DarkGray: #333;
+}
+
+.footerLink * {
+    transition: color 0.2s ease !important;
+}
+
+.footerLink a span {
+    color: #9ca3af !important;
+    text-decoration: none !important;
+}
+
+.footerLink a:hover span {
+    color: #78B41E !important;
+ /* green */
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[ Cards ]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.paymentCards {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+    min-height: 175px !important;
+    gap: 12px;
+}
+
+.paymentCards {
+    background: #f4f4f4 !important;
+    border-radius: 16px !important;
+    padding: 24px !important;
+    box-sizing: border-box !important;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    margin: 0 10px !important;
+}
+
+.paymentCards:hover {
+    transform: translateY(-3px);
+    transition: all 0.25s ease;
+}
+
+
+
+/*~~~~~ Mobile View Cards ~~~~~~~~~*/
+.paymentCardsM {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 175px !important;
+    background: #f4f4f4 !important;
+    border-radius: 16px !important;
+    padding: 24px !important;
+    text-align: center;
+    box-sizing: border-box !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    margin-bottom: 24px !important;
+}
+
+.paymentCardsM:hover {
+    transform: translateY(-3px);
+    transition: all 0.25s ease;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[ CTAs Buttons ]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/* Buttons */
+.reserveButton {
+    background-color: var(--Green) !important;
+    color: #FFFFFF !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    line-height: 1.4 !important;
+    padding: 14px 28px !important;
+    border-radius: 6px !important;
+    border: none !important;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+}
+
+/* Hover */
+.reserveButton:hover {
+    background-color: var(--GreenHover) !important;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/

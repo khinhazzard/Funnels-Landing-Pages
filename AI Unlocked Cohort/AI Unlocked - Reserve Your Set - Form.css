@@ -1,0 +1,31 @@
+/* Input Fields */
+
+.hl-app #_builder-form input:focus,
+.hl-app #_builder-form textarea:focus,
+.hl-app #_builder-form select:focus,
+.hl-app #_builder-form .multiselect__tags:focus-within {
+  outline: 2px solid #78b41e !important;
+  outline-offset: 1px !important;
+  box-shadow: 0 0 0 4px rgba(120, 180, 30, 0.35) !important;
+}
+
+/* Hover */
+
+.hl-app #_builder-form input:hover,
+.hl-app #_builder-form textarea:hover,
+.hl-app #_builder-form select:hover,
+.hl-app #_builder-form .multiselect__tags:hover {
+  border-color: #78b41e !important;
+}
+
+/* Submit Button Hover */
+
+.hl-app #_builder-form .form-builder--btn-submit button:hover {
+  filter: brightness(0.95);
+}
+
+/* Submit Button Active */
+
+.hl-app #_builder-form .form-builder--btn-submit button:active {
+  transform: scale(0.98);
+}
