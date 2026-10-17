@@ -127,12 +127,13 @@ html {
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[ Hero Section]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 /* Foreword Endorsement — Desktop */
+/*
 .forewordQuote p {
     font-size: 20px !important;
     font-style: italic !important;
     font-weight: 400 !important;
     line-height: 1.6 !important;
-    color: #FFFFFF !important;
+    color: black !important;
     text-align: center !important;
     max-width: 850px !important;
     margin: 0 auto 16px auto !important;
@@ -143,12 +144,29 @@ html {
     font-style: normal !important;
     font-weight: 500 !important;
     line-height: 1.5 !important;
-    color: #FFFFFF !important;
+    color: black !important;
     text-align: center !important;
     margin: 0 auto !important;
+}*/
+
+
+.forewordQuote p {
+    font-size: 22px !important;
+    line-height: 1.8 !important;
+    font-weight: 400 !important;
+    font-style: italic !important;
+    color: #444444 !important;
+    text-align: left !important;
 }
 
+.forewordAttribution p {
+    font-size: 14px !important;
+    line-height: 1.5 !important;
+    font-weight: 600 !important;
+    color: #666666 !important;
+    text-align: left !important;
 }
+
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[ S5: Form Section]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
