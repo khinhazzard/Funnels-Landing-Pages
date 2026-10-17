@@ -1,0 +1,212 @@
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[ Variable Initialization]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+:root {
+    --Biscay: #1C3464;
+    --BaliHali: #909CB0;
+    --Apple: #5F8D33;
+    --Sycamore: #809440;
+    --Lima: #7CB41C;
+    --Sushi: #93C144;
+    --Concrete: #F3F3F3;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[Navigation Menu]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.navStickyHeader {
+    position: sticky !important;
+    top: 0;
+    z-index: 625 !important;
+    transition: transform 0.35s ease, opacity 0.35s ease;
+    will-change: transform;
+  	  	 /* slight transparency */
+    background-color: rgba(243, 243, 243, 0.85) !important;
+}
+
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[ Color Branding ]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.secHeaders h2 span {
+    color: var(--Biscay) !important;
+}
+
+.lightCards {
+    background-color: white !important;
+    padding-top: 5px !important;
+    padding-left: 5px !important;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.28) !important;
+}
+
+.lightCards .inner,
+.lightCards .row,
+.lightCards .col-inner {
+    padding: 0px !important;
+}
+
+.darkCards .c-column {
+    display: flex;
+}
+/*
+.darkCards .col-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding: 20px !important;
+}
+*/
+
+.darkCards {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+    min-height: 390px !important;
+    gap: 12px;
+    padding-top: 15px !important;
+}
+
+.darkCards {
+    background-color: var(--Concrete) !important;
+    border: transparent !important;
+    margin-left: 15px !important;
+    margin-right: 15px !important;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.28) !important;
+}
+
+.darkContent h1 span,
+.darkContent * {
+    color: var(--Biscay) !important;
+}
+
+.darkCardsM {
+    margin-bottom: 10px !important;
+}
+
+.darkBigCards {
+    background-color: var(--Concrete) !important;
+    border: transparent !important;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.28) !important;
+    min-height: 150px !Important;
+    background-color: var(--Concrete) !important;
+    border: transparent !important;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.28) !important;
+}
+
+
+
+/* Invisible Card*/
+#col-tqwicv1p3- {
+    box-shadow: none !important;
+    background-color: white !important;
+    border: none !important;
+}
+
+.lightContent h1 span,
+.lightContent * {
+    color: var(--Concrete) !important;
+}
+
+/*Icon Size */
+.cardIcons {
+    width: fit-content !important;
+    min-width: 65px !important;
+    min-height: 65px !important;
+    padding: 0 !important;
+    transform: scale(0.8);
+}
+
+/*Centers the icon inside the box*/
+.cardIcons {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-indent: 10px;
+}
+
+/*Icon Background */
+.cardIcons {
+    background-color: #e3e3e3 !important;
+    border-style: solid !important;
+    border-width: !important;
+    border-color: transparent !important;
+    border-radius: 10px !important;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[ Motion Effects ]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+html {
+    scroll-behavior: smooth;
+}
+
+.button-style1 {
+    transition: all 0.2s ease-in-out !important;
+}
+
+.button-style1:hover {
+    transition: all 0.1s ease-out !important;
+    transform: scale(1.08);
+    background: var(--Biscay) !important;
+    color: var(--Concrete) !important;
+    border: 2px solid var(--Biscay) !important;
+}
+
+.button-style1:active {
+    transform: translateY(1.3px) scale(1.02) !important;
+    transition: all 0.05s ease !important;
+    border: none !important;
+    box-shadow: inset 0 0 0 4px var(--Concrete),
+                0 0 15px rgba(0, 0, 0, 0.8) !important;
+}
+
+.button-style2 {
+    transition: all 0.2s ease-in-out !important;
+}
+
+.button-style2:hover {
+    transition: all 0.1s ease-out !important;
+    transform: scale(1.08);
+    background: var(--Concrete) !important;
+    color: var(--Biscay) !important;
+    border: 2px solid var(--Concrete) !important;
+    text-shadow: none !important;
+}
+
+.button-style2:active {
+    transform: translateY(1.3px) scale(1.02) !important;
+    transition: all 0.05s ease !important;
+    border: none !important;
+    box-shadow: inset 0 0 0 4px var(--Concrete),
+                0 0 15px rgba(0, 0, 0, 0.8) !important;
+    text-shadow: none !important;
+}
+
+.appleButton-style {
+    transition: all 0.2s ease-in-out !important;
+}
+
+.appleButton-style:hover {
+    transition: all 0.1s ease-out !important;
+    transform: scale(1.08);
+    background: black !important;
+    color: var(--Lima) !important;
+}
+
+.appleButton-style:active {
+    transform: translateY(1.3px) scale(1.02) !important;
+    transition: all 0.05s ease !important;
+    border: none !important;
+    box-shadow: inset 0 0 0 4px var(--Lima) !important;
+}
+
+.cardIcons {
+    transition: all 0.3s ease;
+}
+
+.cardIcons:hover {
+    transform: scale(0.9);
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
